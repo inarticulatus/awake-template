@@ -2,24 +2,24 @@
   <div class="card">
     <div class="card-image">
       <nuxt-link :to="link">
-        <figure :class="`image is-${imageRatioClass}`">
+        <figure :class="`image is-4by3`">
           <opti-image
             v-if="image"
             :src="responsiveImage.src"
             :srcset="responsiveImage.srcSet"
             :width="imageRatio[0]"
-            :height="imageRatio[1]"
-            :sizes="`(min-width: 768px) ${100 / $siteConfig.posts.perRow}vw`"
+            :height="imageRatio[0.6]"
+            :sizes="`(min-width: 1080px) ${100 / $siteConfig.posts.perRow}vw`"
           />
           <loading-spinner position="absolute" />
         </figure>
       </nuxt-link>
     </div>
-    <div class="card-content">
+    <!-- <div class="card-content">
       <div class="media">
         <div class="media-content">
           <nuxt-link :to="link">
-            <h3
+            <h6
               :class="
                 `title
                 is-5
@@ -28,24 +28,15 @@
               "
             >
               {{ title }}
-            </h3>
-            <h4
-              :class="{
-                subtitle: true,
-                'is-6': true,
-                'empty-content-placeholder': !$slots.default
-              }"
-            >
-              <slot></slot>
-            </h4>
+            </h6>
           </nuxt-link>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
-const imageDimensionDefault = '16x9'
+const imageDimensionDefault = '3x4'
 export default {
   props: {
     title: { type: String, default: '' },
@@ -85,12 +76,11 @@ export default {
   background: transparent;
   color: transparent;
   position: relative;
-  height: 1em;
+  height: 0em;
   &:before {
     transform-origin: left;
     content: '';
     background: #eee;
-    width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;

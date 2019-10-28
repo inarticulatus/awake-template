@@ -1,21 +1,9 @@
 <template>
-  <div class="logo-wrapper">
-    <div
-      :class="{
-        'logo-inner': true,
-        blink: blinking
-      }"
-    >
-      <img
-        v-for="x in frames"
-        :key="x"
-        :src="`/logo-frames/logo-f${x - 1}.svg`"
-      />
-      <img
-        v-for="x in frames"
-        :key="`${x}-r`"
-        :src="`/logo-frames/logo-f${frames - x}.svg`"
-      />
+  <div style="top:20%;" class="logo-wrapper">
+    <div>
+      <p style="font:20px;">
+        Aamir Photography Logo
+      </p>
     </div>
   </div>
 </template>
@@ -61,5 +49,10 @@ export default {
       animation: logoBlink 0.2s steps(8, end) alternate;
     }
   }
+}
+</style>
+<style scoped>
+p {
+  font-size: 13pt;
 }
 </style>

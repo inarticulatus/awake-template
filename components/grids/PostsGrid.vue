@@ -9,8 +9,6 @@
         :title="item.title"
         :link="`/${item.slug}`"
         :image="item.featureImage"
-        :author="item.author"
-        :date="item.date"
       />
     </template>
   </resource-grid>
