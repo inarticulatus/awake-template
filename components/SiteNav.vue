@@ -3,6 +3,7 @@
     class="navbar has-shadow is-fixed-top"
     role="navigation"
     aria-label="main navigation"
+    style="background-color: rgba(241,241,241,15);"
   >
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
