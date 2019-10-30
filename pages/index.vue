@@ -17,30 +17,29 @@
 
     <div id="container">
       <!-- <img src="../assets/uploads/hero/1.jpg"-->
-      <p style="font-size: 26pt;color: black;left: 50px;top:44.3%;">I do</p>
-      <div
-        style="background-image:url(http://imaging.nikon.com/lineup/dslr/df/img/sample/img_01.jpg);"
-      >
-        <p style="left:125px;">
+      <p style="font-size: 26pt;color: black;left: 60px;top:75.3%;">
+        I do
+      </p>
+      <div>
+        <p style="left:108px;">
           Landscape
         </p>
-      </div>
-      <div
-        style="background-image:url(http://imaging.nikon.com/lineup/dslr/df/img/sample/img_02.jpg);"
-      >
-        <p style="left:85px;">
-          Potrait
-        </p>
-      </div>
-      <div
-        style="background-image:url(http://imaging.nikon.com/lineup/dslr/df/img/sample/img_03.jpg);"
-      >
-        <p style="left:100px;">
-          Wedding
-        </p>
+        <img src="../assets/uploads/landscape.jpg" style="object-fit:cover;" />
       </div>
       <div>
-        <p style="color:black;left:130px;">
+        <p style="left:73px;">
+          Potrait
+        </p>
+        <img src="../assets/uploads/potrait.jpg" style="object-fit:cover;" />
+      </div>
+      <div style="background-image: url(../assets/uploads/wedding.jpg);">
+        <p style="left:90px;">
+          Wedding
+        </p>
+        <img src="../assets/uploads/wedding.jpg" style="object-fit:cover;" />
+      </div>
+      <div style="background-color:white;">
+        <p style="color:black;left:113px;font-size:26pt;">
           Photography
         </p>
       </div>
@@ -94,14 +93,14 @@ export default {
   position:relative;
   height:700px;
   width:700px;
-  left: 50%;
+  left: 30%;
   top: 30%;
 }
 p {
   padding: 20px;
   font-size: 30pt;
   position: absolute;
-  top: 30%;
+  top: 61%;
   left: 13%;
   transform: translate(-50%, -50%);
   color: white;
@@ -112,7 +111,8 @@ p {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  object-fit: contain;
+  /* background-size: contain; */
 }
 #container img {
   height: 70vh;
@@ -195,40 +195,40 @@ p {
   -webkit-animation-name: imgFade;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 8s;
+  -webkit-animation-duration: 16s;
 
   -moz-animation-name: imgFade;
   -moz-animation-timing-function: ease-in-out;
   -moz-animation-iteration-count: infinite;
-  -moz-animation-duration: 8s;
+  -moz-animation-duration: 16s;
 
   -o-animation-name: imgFade;
   -o-animation-timing-function: ease-in-out;
   -o-animation-iteration-count: infinite;
-  -o-animation-duration: 8s;
+  -o-animation-duration: 16s;
 
   animation-name: imgFade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
+  animation-duration: 16s;
 }
 #container div:nth-of-type(1) {
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  -o-animation-delay: 6s;
-  animation-delay: 6s;
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
 }
 #container div:nth-of-type(2) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+#container div:nth-of-type(3) {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -o-animation-delay: 4s;
   animation-delay: 4s;
-}
-#container div:nth-of-type(3) {
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  animation-delay: 2s;
 }
 #container div:nth-of-type(4) {
   -webkit-animation-delay: 0;
