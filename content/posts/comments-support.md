@@ -5,6 +5,6 @@ category:
   - About Awake
 author: Daniel Kelly
 date: 2019-10-30T18:32:00.000Z
-featureImage: /uploads/disqus-hero.jpg
+featureImage: /uploads/holi_colourful.jpg
 ---
 This image is beautiful.
