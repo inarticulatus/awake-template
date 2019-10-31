@@ -113,7 +113,7 @@ export default {
     padding-left: 10px;
     font-size: 26pt;
     position: relative;
-    top: 445px;
+    top: 440px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(245, 245, 245);
