@@ -40,9 +40,6 @@
             {{ item.name }}
           </component>
         </li>
-        <li class="navbar-item site-search-wrapper">
-          <site-search />
-        </li>
       </ul>
     </div>
   </nav>

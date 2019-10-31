@@ -17,17 +17,11 @@
 
     <div id="container">
       <!-- <img src="../assets/uploads/hero/1.jpg"-->
-      <p style="font-size: 26pt;color: black;left: 24px;top:69.7%;">
+      <p style="font-size: 26pt;color: black;left: 24px;top:69.3%;">
         I do
       </p>
       <div>
-        <p style="left:108px;">
-          Landscape
-        </p>
-        <img src="../assets/uploads/landscape.jpg" />
-      </div>
-      <div>
-        <p style="left:73px;">
+        <p style="left:66px;">
           Potrait
         </p>
         <img
@@ -35,14 +29,20 @@
           style="object-fit:cover;width: 700px;"
         />
       </div>
+      <div>
+        <p style="left:93px;">
+          Landscape
+        </p>
+        <img src="../assets/uploads/landscape.jpg" />
+      </div>
       <div style="background-image: url(../assets/uploads/wedding.jpg);">
-        <p style="left:90px;">
+        <p style="left:81px;">
           Wedding
         </p>
         <img src="../assets/uploads/wedding.jpg" style="object-fit:cover;" />
       </div>
       <div style="background-color:white;">
-        <p style="color:black;left:113px;font-size:26pt;">
+        <p style="color:black;left:102px;font-size:26pt;">
           Photography
         </p>
       </div>
@@ -95,16 +95,16 @@ export default {
 #container {
   position:relative;
   height:738px;
-  width:80vw;
+  width:60vw;
   left: 10%;
   top: 30%;
 }
 p {
   padding: 20px;
-  font-size: 30pt;
+  font-size: 26pt;
   position: absolute;
   top: 61%;
-  left: 13%;
+  left: 10%;
   transform: translate(-50%, -50%);
   color: white;
 }
