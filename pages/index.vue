@@ -113,7 +113,7 @@ export default {
     padding-left: 10px;
     font-size: 26pt;
     position: relative;
-    top: 440px;
+    top: 445px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(245, 245, 245);
@@ -181,7 +181,7 @@ export default {
     left: 50%;
     color: #4f4c4c;
     background-color: rgba(255, 255, 255, 0.5);
-    height: 330px;
+    height: 350px;
     width: 57vw;
   }
 }
