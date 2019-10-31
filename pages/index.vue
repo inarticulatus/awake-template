@@ -20,9 +20,7 @@
         <br />
         I am <strong>Aamir </strong>.
         <br />
-        I hail from <strong> _Location_ </strong>
-        <br />
-        and I do
+        I hail from <strong> _Location_ </strong> and I do
       </p>
     </div>
     <div id="container">
@@ -135,8 +133,8 @@ export default {
     width: 100vw;
   }
   #hero_text p {
-    top: 420px;
-    left: 728px;
+    top: 393px;
+    left: 924px;
     color:grey;
   }
   #hero_text {
