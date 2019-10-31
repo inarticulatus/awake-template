@@ -18,7 +18,10 @@
       <p>
         Hello!
         <br />
-        I am <strong>Aamir </strong>. I hail from <strong> _Location_ </strong>
+        I am <strong>Aamir </strong>.
+        <br />
+        I hail from <strong> _Location_ </strong>
+        <br />
         and I do
       </p>
     </div>
@@ -154,7 +157,7 @@ export default {
     padding: 2px;
     font-size: 26pt;
     position: absolute;
-    top: 61%;
+    top: 377px;
     left: 51%;
     transform: translate(-50%, -50%);
     color: rgb(245, 245, 245);
@@ -176,12 +179,29 @@ export default {
     width: 100vw;
   }
   #hero_text p {
-    top: 350px;
+    top: 286px;
     left: 50%;
     color: #4f4c4c;
     background-color: rgba(255, 255, 255, 0.5);
-    height: 44vh;
-    width: 52vw;
+    height: 330px;
+    width: 57vw;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  #hero_text p {
+    top: 50%;
+  }
+  p {
+    padding: 2px;
+    font-size: 26pt;
+    position: absolute;
+    top: 65%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: rgb(245, 245, 245);
+    z-index: 1;
+    text-align: center;
   }
 }
 @-webkit-keyframes imgFade {
