@@ -67,4 +67,9 @@ export default {
     border-right: 1px solid #eee;
   }
 }
+@media screen and (max-width: 700px) {
+  .page-main-section {
+    margin-top: 0px;
+  }
+}
 </style>

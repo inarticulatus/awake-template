@@ -14,44 +14,44 @@
     <!--        Subscribe To Newsletter-->
     <!--      </button> &ndash;&gt;-->
     <!--    </site-hero>-->
-    <div>
-      <p style="color:grey;top:509px;">
+    <div id="hero_text">
+      <p>
         Hello!
         <br />
         I am <strong>Aamir </strong>. I hail from <strong> _Location_ </strong>
-        and
+        and I do
       </p>
     </div>
     <div id="container">
-      <!-- <img src="../assets/uploads/hero/1.jpg"-->
-      <p style="font-size: 26pt;color: grey;left: 24px;top:69.3%;">
-        I do
-      </p>
+      <div style="background-color:white;">
+        <p style="color:black;">
+          <!-- left:102px; -->
+          <strong>Photography </strong>
+        </p>
+      </div>
       <div>
-        <p style="left:66px;">
+        <p>
+          <!-- style="left:66px;" -->
           Potrait
         </p>
         <img
           src="../assets/uploads/potrait.jpg"
-          style="object-fit:cover;width: 700px;"
+          style="object-fit: cover;width: 700px;"
         />
       </div>
       <div>
-        <p style="left:93px;">
+        <p>
+          <!-- style="left:93px;" -->
           Landscape
         </p>
         <img src="../assets/uploads/landscape.jpg" style="object-fit:cover;" />
       </div>
       <div>
-        <p style="left:81px;">
+        <p>
+          <!-- style="left:81px;" -->
           Wedding
         </p>
         <img src="../assets/uploads/wedding.jpg" style="object-fit:cover;" />
-      </div>
-      <div style="background-color:white;">
-        <p style="color:black;left:102px;font-size:26pt;">
-          <strong>Photography </strong>
-        </p>
       </div>
     </div>
     <main-section theme="one-column">
@@ -99,36 +99,91 @@ export default {
 
 <style scoped>
 /* prettier-ignore */
-#container {
-  position:relative;
-  height:738px;
-  width:40vw;
-  left: 50%;
-  top: 30%;
-}
-p {
-  padding: 20px;
-  font-size: 26pt;
-  position: absolute;
-  top: 61%;
-  left: 26.5%;
-  transform: translate(-50%, -50%);
-  color: rgb(245, 245, 245);
-}
-#container div {
-  position: absolute;
-  margin: 61px;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  object-fit: contain;
-  /* background-size: contain; */
-}
-#container img {
-  height: 77%;
-  width: 100vw;
+@media screen and (min-width: 700px){
+  #container {
+    position:relative;
+    height:738px;
+    width:40vw;
+    left: 50%;
+    top: 30%;
+  }
+  p {
+    padding: 0;
+    padding-left: 10px;
+    font-size: 26pt;
+    position: relative;
+    top: 445px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(245, 245, 245);
+  }
+  #container div {
+    position: absolute;
+    margin: 61px;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    /* background-size: contain; */
+  }
+  #container img {
+    height: 77%;
+    width: 100vw;
+  }
+  #hero_text p {
+    top: 420px;
+    left: 728px;
+    color:grey;
+  }
+  #hero_text {
+    height: 0;
+  }
 }
 
+@media screen and (max-width: 700px) {
+  .section {
+    padding: 0rem 1.5rem;
+  }
+  #container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  p {
+    padding: 2px;
+    font-size: 26pt;
+    position: absolute;
+    top: 61%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: rgb(245, 245, 245);
+    z-index: 1;
+    text-align: center;
+  }
+  #container div {
+    position: absolute;
+    margin: 0px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    /* background-size: contain; */
+  }
+  #container img {
+    height: 77%;
+    width: 100vw;
+  }
+  #hero_text p {
+    top: 350px;
+    left: 50%;
+    color: #4f4c4c;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 44vh;
+    width: 52vw;
+  }
+}
 @-webkit-keyframes imgFade {
   0% {
     opacity: 1;
