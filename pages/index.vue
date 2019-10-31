@@ -14,10 +14,17 @@
     <!--        Subscribe To Newsletter-->
     <!--      </button> &ndash;&gt;-->
     <!--    </site-hero>-->
-
+    <div>
+      <p style="color:grey;top:509px;">
+        Hello!
+        <br />
+        I am <strong>Aamir </strong>. I hail from <strong> _Location_ </strong>
+        and
+      </p>
+    </div>
     <div id="container">
       <!-- <img src="../assets/uploads/hero/1.jpg"-->
-      <p style="font-size: 26pt;color: black;left: 24px;top:69.3%;">
+      <p style="font-size: 26pt;color: grey;left: 24px;top:69.3%;">
         I do
       </p>
       <div>
@@ -33,9 +40,9 @@
         <p style="left:93px;">
           Landscape
         </p>
-        <img src="../assets/uploads/landscape.jpg" />
+        <img src="../assets/uploads/landscape.jpg" style="object-fit:cover;" />
       </div>
-      <div style="background-image: url(../assets/uploads/wedding.jpg);">
+      <div>
         <p style="left:81px;">
           Wedding
         </p>
@@ -43,7 +50,7 @@
       </div>
       <div style="background-color:white;">
         <p style="color:black;left:102px;font-size:26pt;">
-          Photography
+          <strong>Photography </strong>
         </p>
       </div>
     </div>
@@ -95,8 +102,8 @@ export default {
 #container {
   position:relative;
   height:738px;
-  width:60vw;
-  left: 10%;
+  width:40vw;
+  left: 50%;
   top: 30%;
 }
 p {
@@ -104,9 +111,9 @@ p {
   font-size: 26pt;
   position: absolute;
   top: 61%;
-  left: 10%;
+  left: 26.5%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(245, 245, 245);
 }
 #container div {
   position: absolute;
