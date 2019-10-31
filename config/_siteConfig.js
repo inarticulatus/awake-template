@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'I am a Photographer!',
-  title: 'I am A Photographer!',
+  siteName: 'Aamir Photography',
+  title: 'Aamir Photography',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
