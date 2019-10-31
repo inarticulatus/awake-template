@@ -54,13 +54,13 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  margin-top: 0px;
+  margin-top: 10vh;
   background-size: cover !important;
   background-position: center;
-  text-align: center;
+  text-align: right;
   overflow: hidden;
   position: relative;
-  height: 100vh;
+  height: 90vh;
 }
 
 .title {

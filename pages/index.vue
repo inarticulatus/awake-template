@@ -17,20 +17,23 @@
 
     <div id="container">
       <!-- <img src="../assets/uploads/hero/1.jpg"-->
-      <p style="font-size: 26pt;color: black;left: 60px;top:75.3%;">
+      <p style="font-size: 26pt;color: black;left: 24px;top:69.7%;">
         I do
       </p>
       <div>
         <p style="left:108px;">
           Landscape
         </p>
-        <img src="../assets/uploads/landscape.jpg" style="object-fit:cover;" />
+        <img src="../assets/uploads/landscape.jpg" />
       </div>
       <div>
         <p style="left:73px;">
           Potrait
         </p>
-        <img src="../assets/uploads/potrait.jpg" style="object-fit:cover;" />
+        <img
+          src="../assets/uploads/potrait.jpg"
+          style="object-fit:cover;width: 700px;"
+        />
       </div>
       <div style="background-image: url(../assets/uploads/wedding.jpg);">
         <p style="left:90px;">
@@ -91,9 +94,9 @@ export default {
 /* prettier-ignore */
 #container {
   position:relative;
-  height:700px;
-  width:700px;
-  left: 30%;
+  height:738px;
+  width:80vw;
+  left: 10%;
   top: 30%;
 }
 p {
@@ -107,7 +110,7 @@ p {
 }
 #container div {
   position: absolute;
-  margin: 100px;
+  margin: 61px;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -115,8 +118,8 @@ p {
   /* background-size: contain; */
 }
 #container img {
-  height: 70vh;
-  width: 30vw;
+  height: 77%;
+  width: 100vw;
 }
 
 @-webkit-keyframes imgFade {

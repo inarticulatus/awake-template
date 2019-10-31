@@ -1,10 +1,7 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
-    <site-hero
-      title="Contact Us"
-      subtitle="Example Contact Page"
-      image="/uploads/contact-hero.jpg"
-    ></site-hero>
+    <site-hero title="Contact Us" image="/uploads/contact-hero.jpg">
+    </site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="tile is-ancestor">
@@ -27,16 +24,10 @@
               <br />
               <div class="content">
                 <p>
-                  <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
-                  </strong>
-                </p>
-                <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                  I am a photographer, specializing in Potraits, Landscapes,
+                  Wedding Photoshoots.
+                  <br />
+                  I love challenges.
                 </p>
               </div>
             </article>
