@@ -41,7 +41,6 @@
       <div>
         <p>
           <!-- style="left:81px;" -->
-          Wedding
         </p>
         <img src="../assets/uploads/4.jpg" style="object-fit:cover;" />
       </div>
