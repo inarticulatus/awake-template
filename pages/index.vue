@@ -38,8 +38,8 @@
         <img
           src="../assets/uploads/potrait.jpg"
           style="object-fit: cover;width: 700px;"
-        /> -->
-      </div>
+        />
+      </div> -->
       <div>
         <p>
           <!-- style="left:93px;" -->
