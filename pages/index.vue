@@ -18,7 +18,7 @@
       <p>
         Hello!
         <br />
-        I am <strong>Prakhar </strong>.
+        I am <strong>Prakhar </strong>
         <br />
         I love <strong> travelling </strong> and 
         <br />
@@ -113,7 +113,7 @@ export default {
   #container div {
     position: absolute;
     margin: 61px;
-    margin-top: 0px;
+    margin-top: 20px;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
