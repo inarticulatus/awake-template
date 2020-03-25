@@ -20,39 +20,30 @@
         <br />
         I am <strong>Prakhar </strong>.
         <br />
-        I love <strong> travelling </strong> and
+        I love <strong> travelling </strong> and Photography
       </p>
     </div>
     <div id="container">
-      <div style="background-color:white;">
-        <p style="color:black;">
-          <!-- left:102px; -->
-          <strong>Photography </strong>
-        </p>
+      <div>
+              <img src="../assets/uploads/hero1.jpg" style="object-fit:cover;" />
+
       </div>
-      <!-- <div>
-        <p>
-          style="left:66px;"
-          Potrait
-        </p>
+      <div>
+       
         <img
-          src="../assets/uploads/potrait.jpg"
+          src="../assets/uploads/hero2.jpg"
           style="object-fit: cover;width: 700px;"
         />
-      </div> -->
+      </div>
       <div>
-        <p>
-          <!-- style="left:93px;" -->
-          Landscape
-        </p>
-        <img src="../assets/uploads/landscape.jpg" style="object-fit:cover;" />
+       <img src="../assets/uploads/hero3.jpg" style="object-fit:cover;" />
       </div>
       <div>
         <p>
           <!-- style="left:81px;" -->
           Wedding
         </p>
-        <img src="../assets/uploads/wedding.jpg" style="object-fit:cover;" />
+        <img src="../assets/uploads/hero4.jpg" style="object-fit:cover;" />
       </div>
     </div>
     <main-section theme="one-column">
