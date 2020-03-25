@@ -32,7 +32,7 @@
       </div>
       <!-- <div>
         <p>
-          <!-- style="left:66px;" -->
+          style="left:66px;"
           Potrait
         </p>
         <img
