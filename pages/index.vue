@@ -20,7 +20,9 @@
         <br />
         I am <strong>Prakhar </strong>.
         <br />
-        I love <strong> travelling </strong> and Photography
+        I love <strong> travelling </strong> and 
+        <br />
+        Photography
       </p>
     </div>
     <div id="container">
