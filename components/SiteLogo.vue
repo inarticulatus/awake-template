@@ -1,7 +1,7 @@
 <template>
   <div style="top:20%;" class="logo-wrapper">
     <div>
-     <img src="../assets/uploads/prakharPhotoLogo.png">
+     <img src="../assets/uploads/prakharphotologo.png">
     </div>
   </div>
 </template>
