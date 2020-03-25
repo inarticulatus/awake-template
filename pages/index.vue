@@ -22,7 +22,7 @@
         <br />
         I love <strong> travelling </strong> and 
         <br />
-        Photography
+        <strong> Photography </strong>
       </p>
     </div>
     <div id="container">
