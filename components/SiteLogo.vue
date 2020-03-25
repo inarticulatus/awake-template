@@ -1,9 +1,7 @@
 <template>
   <div style="top:20%;" class="logo-wrapper">
     <div>
-      <p style="font:20px;">
-        Aamir Photography Logo
-      </p>
+     <img src="../assets/uploads/prakharPhotoLogo.png">
     </div>
   </div>
 </template>
