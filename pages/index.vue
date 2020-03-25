@@ -34,7 +34,7 @@
        
         <img
           src="../assets/uploads/2.jpg"
-          style="object-fit: cover;width: 700px;"
+          style="object-fit: cover;"
         />
       </div>
       <div>
@@ -98,7 +98,7 @@ export default {
     height:738px;
     width:40vw;
     left: 50%;
-    top: 30%;
+    top: 20%;
   }
   p {
     padding: 0;
@@ -121,7 +121,8 @@ export default {
     /* background-size: contain; */
   }
   #container img {
-    height: 77%;
+    padding-top: 12rem;
+    height: 80%;
     width: 100vw;
   }
   #hero_text p {
