@@ -25,25 +25,25 @@
     </div>
     <div id="container">
       <div>
-              <img src="../assets/uploads/hero1.jpg" style="object-fit:cover;" />
+              <img src="../assets/uploads/1.jpg" style="object-fit:cover;" />
 
       </div>
       <div>
        
         <img
-          src="../assets/uploads/hero2.jpg"
+          src="../assets/uploads/2.jpg"
           style="object-fit: cover;width: 700px;"
         />
       </div>
       <div>
-       <img src="../assets/uploads/hero3.jpg" style="object-fit:cover;" />
+       <img src="../assets/uploads/3.jpg" style="object-fit:cover;" />
       </div>
       <div>
         <p>
           <!-- style="left:81px;" -->
           Wedding
         </p>
-        <img src="../assets/uploads/hero4.jpg" style="object-fit:cover;" />
+        <img src="../assets/uploads/4.jpg" style="object-fit:cover;" />
       </div>
     </div>
     <main-section theme="one-column">
