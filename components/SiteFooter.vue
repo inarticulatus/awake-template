@@ -3,8 +3,7 @@
     {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - All
     Rights Reserved
     <br />
-    Made with <span style="color: #e25555;">&#9829;</span> by
-    <a href="https://www.utkarshtripathi.me"> Utkarsh </a>
+    Made with <a href="https://www.utkarshtripathi.me"> <span style="color: #e25555;">&#9829;</span> </a>
   </footer>
 </template>
 
