@@ -18,9 +18,9 @@
       <p>
         Hello!
         <br />
-        I am <strong>Aamir </strong>.
+        I am <strong>Prakhar </strong>.
         <br />
-        I hail from <strong> _Location_ </strong> and I do
+        I love <strong> travelling </strong> and
       </p>
     </div>
     <div id="container">
@@ -30,7 +30,7 @@
           <strong>Photography </strong>
         </p>
       </div>
-      <div>
+      <!-- <div>
         <p>
           <!-- style="left:66px;" -->
           Potrait
@@ -38,7 +38,7 @@
         <img
           src="../assets/uploads/potrait.jpg"
           style="object-fit: cover;width: 700px;"
-        />
+        /> -->
       </div>
       <div>
         <p>
